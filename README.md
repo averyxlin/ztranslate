@@ -7,4 +7,4 @@ well, me too. i certainly can't keep up with all of the new slang that evolves s
 
 ## technologies
 - **backend**: supabase
-- **frontend**: react
+- **frontend**: react, tailwind-css, hyperui
