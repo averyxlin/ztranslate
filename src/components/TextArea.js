@@ -10,7 +10,7 @@ const TextArea = ({ isTranslate }) => {
         >
           <textarea
             id="TranslateInput"
-            className="flex-grow w-full h-full resize-none border-none align-top focus:ring-0 sm:text-sm p-3" 
+            className="bg-white flex-grow w-full h-full resize-none border-none align-top focus:ring-0 sm:text-sm p-3" 
             rows="4"
             placeholder={isTranslate ? `Translate...` : `Translated Text`}
             disabled={!isTranslate}
