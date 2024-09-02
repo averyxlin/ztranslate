@@ -4,9 +4,13 @@ import TextArea from './components/TextArea';
 
 function App() {
   return (
-    <div className="h-dvh w-dvw flex items-center justify-center gap-4">
-      <TextArea isTranslate/>
-      <TextArea />
+    <div className="font-sans antialiased h-screen w-screen flex items-center justify-center gap-10">
+      <div className="w-1/3">
+        <TextArea isTranslate/>
+      </div>
+      <div className="w-1/3">
+        <TextArea/>
+      </div>
     </div>
   );
 }
